@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 10612929}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.28, y: 1.936, z: -2.413}
+  m_LocalPosition: {x: 0.28, y: 1.936, z: -2.3319}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -228,7 +228,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -521,7 +521,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -608,7 +608,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -682,7 +682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6845035472331645361, guid: 7db09de620202d849887294c319463d8, type: 3}
       propertyPath: m_Name
-      value: book_02 (2)
+      value: book_06
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -833,7 +833,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -989,7 +989,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -1090,9 +1090,8 @@ GameObject:
   - component: {fileID: 466297017}
   - component: {fileID: 466297020}
   - component: {fileID: 466297019}
-  - component: {fileID: 466297018}
   m_Layer: 0
-  m_Name: sprite_frame_03
+  m_Name: Frame_Decor_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1108,32 +1107,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.26667243, y: -0.78668714, z: -0.06411791}
-  m_LocalScale: {x: 0.10402658, y: 0.10620527, z: 0.062280886}
+  m_LocalScale: {x: 0.104026586, y: 0.10620528, z: 0.062280886}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1323896519}
+  m_Father: {fileID: 1675544051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!65 &466297018
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466297016}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &466297019
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1197,7 +1175,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 705469387803257565, guid: b7be529e22e16664ab65776b470b4d08, type: 3}
       propertyPath: m_Name
-      value: book_01 (2)
+      value: book_03
       objectReference: {fileID: 0}
     - target: {fileID: 1649023749105974985, guid: b7be529e22e16664ab65776b470b4d08, type: 3}
       propertyPath: m_LocalScale.x
@@ -1370,9 +1348,8 @@ GameObject:
   - component: {fileID: 655349613}
   - component: {fileID: 655349616}
   - component: {fileID: 655349615}
-  - component: {fileID: 655349614}
   m_Layer: 0
-  m_Name: sprite_frame_07
+  m_Name: Image Frame_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1393,27 +1370,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1323896519}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!65 &655349614
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655349612}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &655349615
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1527,7 +1483,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.1981132, g: 0.15792987, b: 0.15792987, a: 1}
   m_FlipX: 0
@@ -1725,9 +1681,8 @@ GameObject:
   - component: {fileID: 682466680}
   - component: {fileID: 682466683}
   - component: {fileID: 682466682}
-  - component: {fileID: 682466681}
   m_Layer: 0
-  m_Name: sprite_frame_06
+  m_Name: Image Frame_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1748,27 +1703,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1323896519}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!65 &682466681
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682466679}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &682466682
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1897,7 +1831,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -1984,7 +1918,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -2125,7 +2059,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 0.7532371, b: 0, a: 1}
   m_FlipX: 0
@@ -2146,7 +2080,7 @@ Transform:
   m_GameObject: {fileID: 742607836}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.367, y: 2.04, z: -2.718}
+  m_LocalPosition: {x: 0.328, y: 2.082, z: -2.613}
   m_LocalScale: {x: 1.9616587, y: 1.9616587, z: 1.9616587}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2274,7 +2208,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.7830189, g: 0.46362424, b: 0.2031417, a: 1}
   m_FlipX: 0
@@ -2376,7 +2310,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -2532,7 +2466,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -2727,7 +2661,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -2871,7 +2805,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -2958,7 +2892,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -3051,9 +2985,8 @@ GameObject:
   - component: {fileID: 1109801768}
   - component: {fileID: 1109801771}
   - component: {fileID: 1109801770}
-  - component: {fileID: 1109801769}
   m_Layer: 0
-  m_Name: sprite_frame_04
+  m_Name: Frame_Decor_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3069,32 +3002,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 1.2401009, y: 0.10928655, z: -0.06411791}
-  m_LocalScale: {x: 0.10402658, y: 0.10620527, z: 0.062280886}
+  m_LocalScale: {x: 0.104026586, y: 0.10620528, z: 0.062280886}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1323896519}
+  m_Father: {fileID: 1675544051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!65 &1109801769
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109801767}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1109801770
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3223,7 +3135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -3310,7 +3222,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -3333,9 +3245,8 @@ GameObject:
   - component: {fileID: 1145016921}
   - component: {fileID: 1145016924}
   - component: {fileID: 1145016923}
-  - component: {fileID: 1145016922}
   m_Layer: 0
-  m_Name: sprite_frame_05
+  m_Name: Frame_Decor_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3351,32 +3262,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 1.2401009, y: -0.7866869, z: -0.06411791}
-  m_LocalScale: {x: 0.10402658, y: 0.10620527, z: 0.062280886}
+  m_LocalScale: {x: 0.104026586, y: 0.10620528, z: 0.062280886}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1323896519}
+  m_Father: {fileID: 1675544051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!65 &1145016922
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145016920}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1145016923
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3505,7 +3395,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -3592,7 +3482,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -3614,7 +3504,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 705469387803257565, guid: b7be529e22e16664ab65776b470b4d08, type: 3}
       propertyPath: m_Name
-      value: book_01 (1)
+      value: book_02
       objectReference: {fileID: 0}
     - target: {fileID: 1649023749105974985, guid: b7be529e22e16664ab65776b470b4d08, type: 3}
       propertyPath: m_LocalScale.x
@@ -3748,7 +3638,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -3770,7 +3660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1323896519}
   m_Layer: 0
-  m_Name: 'wall picture '
+  m_Name: Image Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3790,10 +3680,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1734124657}
-  - {fileID: 1598640276}
-  - {fileID: 466297017}
-  - {fileID: 1109801768}
-  - {fileID: 1145016921}
   - {fileID: 682466680}
   - {fileID: 655349613}
   - {fileID: 2090091885}
@@ -3874,7 +3760,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -3992,7 +3878,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -4203,7 +4089,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -4277,7 +4163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6845035472331645361, guid: 7db09de620202d849887294c319463d8, type: 3}
       propertyPath: m_Name
-      value: book_02 (1)
+      value: book_05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4359,7 +4245,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -4382,9 +4268,8 @@ GameObject:
   - component: {fileID: 1598640276}
   - component: {fileID: 1598640279}
   - component: {fileID: 1598640278}
-  - component: {fileID: 1598640277}
   m_Layer: 0
-  m_Name: sprite_frame_02
+  m_Name: Frame_Decor_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4400,32 +4285,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.26667237, y: 0.10928655, z: -0.06411791}
-  m_LocalScale: {x: 0.10402658, y: 0.10620527, z: 0.062280886}
+  m_LocalScale: {x: 0.104026586, y: 0.10620528, z: 0.062280886}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1323896519}
+  m_Father: {fileID: 1675544051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!65 &1598640277
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598640275}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1598640278
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4572,6 +4436,41 @@ Transform:
   - {fileID: 1143526753}
   m_Father: {fileID: 1712787169}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1675544050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675544051}
+  m_Layer: 0
+  m_Name: Frame Decor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1675544051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675544050}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.316, y: 2.468, z: -2.557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1598640276}
+  - {fileID: 466297017}
+  - {fileID: 1109801768}
+  - {fileID: 1145016921}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1712787168
 GameObject:
   m_ObjectHideFlags: 0
@@ -4689,7 +4588,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -4712,9 +4611,8 @@ GameObject:
   - component: {fileID: 1734124657}
   - component: {fileID: 1734124660}
   - component: {fileID: 1734124659}
-  - component: {fileID: 1734124658}
   m_Layer: 0
-  m_Name: sprite_frame_01
+  m_Name: Image Frame_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4735,27 +4633,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1323896519}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!65 &1734124658
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734124656}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1734124659
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4884,7 +4761,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -4958,7 +4835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6845035472331645361, guid: 7db09de620202d849887294c319463d8, type: 3}
       propertyPath: m_Name
-      value: book_02
+      value: book_04
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5076,7 +4953,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -5163,7 +5040,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -5250,7 +5127,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -5337,7 +5214,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -5481,7 +5358,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -5568,7 +5445,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -5655,7 +5532,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -5735,35 +5612,13 @@ GameObject:
   - component: {fileID: 2090091885}
   - component: {fileID: 2090091884}
   - component: {fileID: 2090091883}
-  - component: {fileID: 2090091882}
   m_Layer: 0
-  m_Name: sprite_frame_08
+  m_Name: Image Frame_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &2090091882
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090091881}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2090091883
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5907,7 +5762,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -5994,7 +5849,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -6081,7 +5936,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.18823531, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
@@ -6153,7 +6008,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.6784314, g: 0.36913726, b: 0.1254902, a: 1}
   m_FlipX: 0
@@ -6204,6 +6059,7 @@ SceneRoots:
   - {fileID: 1549302080}
   - {fileID: 144471186}
   - {fileID: 1429473104}
+  - {fileID: 1675544051}
   - {fileID: 1323896519}
   - {fileID: 656219649}
   - {fileID: 742607838}
