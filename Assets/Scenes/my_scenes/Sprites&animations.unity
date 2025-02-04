@@ -268,11 +268,11 @@ RectTransform:
   - {fileID: 1522895878}
   m_Father: {fileID: 1824296501}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -449.20773, y: 181}
-  m_SizeDelta: {x: 366.0879, y: 217.2347}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 20, y: -20}
+  m_SizeDelta: {x: 366.0879, y: 217.23468}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &34274303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2645,7 +2645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &558726803
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3048,7 +3048,7 @@ GameObject:
   - component: {fileID: 599496615}
   - component: {fileID: 599496614}
   m_Layer: 5
-  m_Name: profile_pic
+  m_Name: frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7756,7 +7756,7 @@ GameObject:
   - component: {fileID: 1543124007}
   - component: {fileID: 1543124008}
   m_Layer: 0
-  m_Name: Monster (1)
+  m_Name: Monster portrait
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7771,14 +7771,14 @@ Transform:
   m_GameObject: {fileID: 1543124006}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -612.00543, y: -357.5873, z: 0}
-  m_LocalScale: {x: 1.4512472, y: 1.4512472, z: 1.4512472}
+  m_LocalPosition: {x: 22.071, y: 7.6, z: 0}
+  m_LocalScale: {x: 56.08438, y: 56.08438, z: 56.08438}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2039988487}
   - {fileID: 450587130}
   - {fileID: 298468283}
-  m_Father: {fileID: 1824296501}
+  m_Father: {fileID: 1822161339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1543124008
 Animator:
@@ -7788,7 +7788,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543124006}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4a2fbb7670b6e4a4084d66baaf829a3c, type: 2}
   m_CullingMode: 0
@@ -9141,7 +9141,7 @@ GameObject:
   - component: {fileID: 1822161341}
   - component: {fileID: 1822161340}
   m_Layer: 5
-  m_Name: baclground_image
+  m_Name: mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9160,6 +9160,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 76031520}
+  - {fileID: 1543124007}
   m_Father: {fileID: 599496613}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -9315,7 +9316,6 @@ RectTransform:
   - {fileID: 1121539076}
   - {fileID: 558726803}
   - {fileID: 34274302}
-  - {fileID: 1543124007}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
