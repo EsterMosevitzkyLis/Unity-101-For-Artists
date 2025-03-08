@@ -5049,7 +5049,7 @@ ParticleSystemRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
@@ -5116,15 +5116,15 @@ ParticleSystem:
   lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
-  cullingMode: 0
+  cullingMode: 3
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -5676,7 +5676,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 1000
+    maxNumParticles: 15
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -9838,7 +9838,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.9995199, y: -0, z: -0, w: 0.030986492}
   m_LocalPosition: {x: -4.647583, y: -3.350113, z: -4.396898}
-  m_LocalScale: {x: 2.328709, y: 2.3287091, z: 2.3287091}
+  m_LocalScale: {x: 2.328709, y: 2.328711, z: 2.328711}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1200544485}
@@ -9861,7 +9861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &731473409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10912,7 +10912,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 13.65
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -19831,7 +19831,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
